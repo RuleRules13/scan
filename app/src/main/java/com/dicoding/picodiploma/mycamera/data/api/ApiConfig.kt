@@ -13,7 +13,7 @@ object ApiConfig {
             .addInterceptor(loggingInterceptor)
             .build()
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://classification-api.dicoding.dev/")
+            .baseUrl("https://dermata-api-975353269699.asia-southeast2.run.app/")
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
             .build()
